@@ -61,18 +61,22 @@ int main() {
 
 // Tests
 void tests() {
+  // TEST PASSED
   vector<int> vec1 = {4, 5, -3, 2, 6, 1};
   int k1 = 2;
   double expected_res1 = 4.5;
   
+  // TEST PASSED
   vector<int> vec2 = {4, 5, -3, 2, 6, 1};
   int k2 = 3;
   double expected_res2 = 3;
   
+  // TEST PASSED
   vector<int> vec3 = {1, 1, 1, 1, -1, -1, 2, -1, -1};
   int k3 = 3;
   double expected_res3 = 1;
   
+  // TEST PASSED
   vector<int> vec4 = {};
   int k4 = 10;
   double expected_res4 = -1000; // Let's set 1,000 as a returning value whenever we have an empty array
