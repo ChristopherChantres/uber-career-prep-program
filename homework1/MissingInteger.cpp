@@ -9,7 +9,6 @@ TIME COMPLEXITY:
 SPACE COMPLEXITY:
 - O(1)
 
-
 ----------------------------
 QUESTIONS/COMMENTS:
 
@@ -51,6 +50,7 @@ int main() {
   return 0;
 }
 
+// Main Algorithm
 int solveProblem(vector<int> arr) {
   int arr_size = arr.size();
   if (arr_size == 0) return arr_size + 1;
@@ -66,19 +66,24 @@ int solveProblem(vector<int> arr) {
   return counter;
 }
 
+// Tests
 void tests() {
+  // TEST PASSED
   vector<int> vec1 = {1, 2, 3, 4, 6, 7};
   int res1 = solveProblem(vec1);
   int expected_res1 = 5;
   
+  // TEST PASSED
   vector<int> vec2 = {1};
   int res2 = solveProblem(vec2);
   int expected_res2 = 2;
   
+  // TEST PASSED
   vector<int> vec3 = {1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12};
   int res3 = solveProblem(vec3);
   int expected_res3 = 9;
   
+  // TEST PASSED
   vector<int> vec4 = {};
   int res4 = solveProblem(vec4);
   int expected_res4 = 1;

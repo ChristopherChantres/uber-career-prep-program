@@ -111,3 +111,7 @@ void tests() {
     cout << "TEST (4) DID NOT PASSED!!" << endl;
   }
 }
+
+// I spent all 40 minutes on this problem (including comments and tests)
+// Although, I did not get to solve the problem in 40 minutes
+// I will try to solve this problem againt later
